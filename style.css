@@ -42,3 +42,25 @@ section {
 h2 {
   color: #333;
 }
+
+/* 🎨 Section Contact */
+#contact {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+#contact h2 {
+  color: #2c3e50;
+}
+
+#contact a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
