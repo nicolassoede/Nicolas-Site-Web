@@ -60,8 +60,9 @@ h2 {
   text-decoration: none;
   font-weight: bold;
 }
-h2 {
-  color: #333;
+
+#contact a:hover {
+  text-decoration: underline;
 }
 
 /* 🎨 Bouton CV */
@@ -80,7 +81,12 @@ h2 {
   background: #005f87;
 }
 
-#contact a:hover {
-  text-decoration: underline;
+/* 🎨 Photo de profil */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #0077b6;
 }
-
